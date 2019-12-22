@@ -1,0 +1,6 @@
+---
+deployment:
+ tasks:
+  - export DEPLOYPATH=/home/bobtest/public_html/newweb
+  - /bin/cp updated22  $DEPLOYPATH
+  - /bin/cp README.md  $DEPLOYPATH
